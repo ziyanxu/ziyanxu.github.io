@@ -2624,6 +2624,7 @@ input, select, textarea {
 			margin-top: -2em;
 			margin-bottom: 3em;
 			width: 18em;
+			vertical-align: middle;
 		}
 
 		.image.fit {
