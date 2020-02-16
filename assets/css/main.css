@@ -2620,10 +2620,9 @@ input, select, textarea {
 		.image.bio {
 			border-radius: 100%;
 			display: inline-block;
-			height: 18em;
-			margin-left: 3em;
+			height: 8em;
 			vertical-align: middle;
-			width: 18em;
+			width: 8em;
 		}
 
 		.image.fit {
