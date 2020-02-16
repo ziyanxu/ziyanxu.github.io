@@ -2620,9 +2620,10 @@ input, select, textarea {
 		.image.bio {
 			border-radius: 100%;
 			display: inline-block;
-			height: 8em;
-			margin-top: 0;
-			width: 8em;
+			height: 18em;
+			margin-top: -2em;
+			margin-bottom: 3em;
+			width: 18em;
 		}
 
 		.image.fit {
@@ -2682,6 +2683,19 @@ input, select, textarea {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
+
+		b.image {
+			overflow: hidden;
+		}
+
+			b.image img {
+				-moz-transition: -moz-transform 0.2s ease-out;
+				-webkit-transition: -webkit-transform 0.2s ease-out;
+				-ms-transition: -ms-transform 0.2s ease-out;
+				transition: transform 0.2s ease-out;
+			}
+
+			
 
 /* Actions */
 
@@ -3324,7 +3338,7 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#intro a {
+		#intro a, #intro  {
 			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
