@@ -2621,7 +2621,7 @@ input, select, textarea {
 			border-radius: 100%;
 			display: inline-block;
 			height: 8em;
-			vertical-align: middle;
+			margin-top: 0;
 			width: 8em;
 		}
 
