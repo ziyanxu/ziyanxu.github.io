@@ -2619,12 +2619,11 @@ input, select, textarea {
 		}
 		.image.bio {
 			border-radius: 100%;
-			display: inline-block;
-			height: 18em;
+			display: flex;
+			height: 300px;
 			margin-top: -2em;
 			margin-bottom: 3em;
-			width: 18em;
-			vertical-align: middle;
+			width: 300px;
 		}
 
 		.image.fit {
