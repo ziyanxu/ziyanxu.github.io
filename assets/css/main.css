@@ -4578,7 +4578,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#navPanelToggle {
-				font-size: 1.5rem;
+				font-size: 1.3rem;
 				padding: 0.25rem 1rem;
 			}
 
