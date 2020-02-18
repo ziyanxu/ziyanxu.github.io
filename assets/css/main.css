@@ -2952,17 +2952,17 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
-			font-size: 1rem;
+			font-size: 1.1rem;
 			margin-top: -0.75rem;
 		}
 
 		header > h3 + p {
-			font-size: 1rem;
+			font-size: 1.1rem;
 			margin-top: -0.75rem;
 		}
 
 		header > h4 + p {
-			font-size: 1rem;
+			font-size: 1.1rem;
 			margin-top: -0.75rem;
 		}
 
