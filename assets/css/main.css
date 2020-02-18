@@ -4575,10 +4575,10 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 980px) {
 
 			#navPanelToggle {
-				font-size: 0.8rem;
+				font-size: 1.5rem;
 				padding: 0.25rem 1rem;
 			}
 
@@ -4623,8 +4623,8 @@ input, select, textarea {
 					border-bottom: 0;
 					display: block;
 					font-family: "Source Sans Pro", Helvetica, sans-serif;
-					font-size: 0.9rem;
-					font-size: 0.9rem;
+					font-size: 1.1rem;
+					font-size: 1.1rem;
 					font-weight: 900;
 					letter-spacing: 0.075em;
 					padding: 0.75rem 0;
