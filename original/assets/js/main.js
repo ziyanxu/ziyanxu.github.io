@@ -240,9 +240,9 @@
 					$main.unscrollex();
 
 					$main.scrollex({
-						mode: 'middle',
-						top: '15vh',
-						bottom: '-15vh',
+						mode: 'bottom',//'middle',
+						top: '25vh',//'15vh',
+						bottom: '-50vh',//'-15vh',
 						enter: function() {
 							$intro.addClass('hidden');
 						},
