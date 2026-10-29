@@ -1,0 +1,55 @@
+/* Compact role and institution headings for the CV. */
+dl.cv-entries > .row {
+    line-height: 1.4;
+}
+
+dl.cv-entries dt {
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.cv-institution {
+    display: block;
+    margin-top: 0.15rem;
+    margin-bottom: 0.5rem;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.35;
+    text-align: left;
+}
+
+dl.cv-entries .col-3 em {
+    font-style: normal;
+}
+
+/* Conference dates and locations share a right-aligned column. */
+.conference-entries .conference-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(12rem, 30%);
+    gap: 0.5rem 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.conference-meta {
+    text-align: right;
+    font-weight: 400;
+}
+
+.conference-date,
+.conference-location {
+    display: block;
+}
+
+.conference-location {
+    margin-top: 0.15rem;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+    .conference-entries .conference-heading {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
