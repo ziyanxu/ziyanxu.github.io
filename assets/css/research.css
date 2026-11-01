@@ -1,0 +1,18 @@
+/* Paired simulations in the selected research grid. */
+.envelope-movies {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin: 0 0 2rem;
+    align-items: start;
+}
+.envelope-movies video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#volatile-depletion .research-citation {
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
